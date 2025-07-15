@@ -1,6 +1,6 @@
 import { ArrowRight, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from '../logo.jpg';
+import logo from '../logo.png';
 import c1 from '../c1.png';
 import c2 from '../c2.png';
 import c3 from '../c3.png';
@@ -52,7 +52,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 sm:px-8">
           <div className="flex items-center space-x-2">
             <img src={logo} alt="Logo" className="w-10 h-10 rounded-full" />
-            <h1 className="text-2xl font-bold text-gray-800"><span className="text-orange-500">The</span>Charity</h1>
+            <h1 className="text-2xl font-bold text-gray-800"><span className="text-orange-500">FO</span>H</h1>
           </div>
 
           {/* Desktop Nav */}
