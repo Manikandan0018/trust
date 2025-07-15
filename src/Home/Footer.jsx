@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         {/* Useful Links */}
-        <div>
+        {/* <div>
           <h4 className="text-white font-semibold mb-3 border-b border-orange-500 inline-block">Useful Links</h4>
           <ul className="space-y-2 text-sm mt-3">
             <li>Body Building</li>
@@ -45,7 +45,7 @@ const Footer = () => {
             <li>Yoga Courses</li>
             <li>Training</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Twitter Feed (Empty for now) */}
         <div>
