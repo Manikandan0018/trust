@@ -6,7 +6,7 @@ const DonatePage = () => {
     bank: 'State Bank of India',
     branch: 'Tiruchirappalli Town (01312)',
     ifsc: 'SBIN0001312',
-    AcoountNumber: '32028410985',
+    AccountNumber: '32028410985',
   };
 
   const [copiedField, setCopiedField] = useState('');
@@ -48,8 +48,8 @@ const DonatePage = () => {
           <h4 className="text-xl font-semibold text-orange-600 mb-3">💳 Bank Account Details</h4>
           <div className="grid gap-4 md:grid-cols-2">
             <DetailRow
-              label="Account Type"
-              value={bankDetails.accountType}
+              label="A/c Number"
+              value={bankDetails.AccountNumber}
               copied={copiedField === 'type'}
               onCopy={() => handleCopy(bankDetails.accountType, 'type')}
             />
