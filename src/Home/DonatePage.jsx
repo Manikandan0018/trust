@@ -6,7 +6,7 @@ const DonatePage = () => {
     bank: 'State Bank of India',
     branch: 'Tiruchirappalli Town (01312)',
     ifsc: 'SBIN0001312',
-    accountType: 'Current Account',
+    AcoountNumber: '32028410985',
   };
 
   const [copiedField, setCopiedField] = useState('');
